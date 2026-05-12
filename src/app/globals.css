@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+ * Paleta Tesouro (R2) — inspirada na vibe Claude
+ * Off-white papel, ink quente, acento vermelho R2 (herança Red Ventures)
+ */
+:root {
+  --bg: #faf9f6;           /* off-white levemente quente, papel */
+  --surface: #ffffff;       /* cards */
+  --ink: #1a1815;           /* preto-tinta, quente */
+  --muted: #6b6660;         /* cinza-marrom para secundários */
+  --border: #e8e4dd;        /* divisores discretos */
+  --accent: #b1271f;        /* vermelho R2 — profundo, não vivo */
+  --accent-soft: #f4e6e4;   /* tint do vermelho para fundos */
+
+  /* Tipografia: serif editorial + sans discreta */
+  --font-serif: "Tiempos Headline", "Source Serif Pro", "Iowan Old Style",
+    "Apple Garamond", "Palatino", Georgia, serif;
+  --font-sans: "Söhne", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  --font-mono: "JetBrains Mono", "SF Mono", Consolas, monospace;
+}
+
+html,
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-feature-settings: "ss01", "cv01";
+  -webkit-font-smoothing: antialiased;
+}
+
+/* sutil grain pra dar textura editorial — opcional, ajuda contra o "AI slop" */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image: radial-gradient(
+    rgba(26, 24, 21, 0.025) 1px,
+    transparent 1px
+  );
+  background-size: 3px 3px;
+  z-index: 0;
+  opacity: 0.6;
+}
+
+/* tudo que vem depois fica acima do grain */
+#__next,
+main,
+section,
+header,
+footer {
+  position: relative;
+  z-index: 1;
+}
+
+::selection {
+  background: var(--accent);
+  color: #fff;
+}
+
+/* scrollbar discreto */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) transparent;
+}

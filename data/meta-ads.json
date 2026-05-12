@@ -1,0 +1,57 @@
+{
+  "advertiser": "Jeitto",
+  "window": "últimos 14 dias",
+  "currency": "BRL",
+  "campaigns": [
+    {
+      "id": "meta_001",
+      "name": "Jeitto | Reels | Casal Jovem 9:16",
+      "objective": "conversions",
+      "spend_7d": 21450,
+      "spend_14d": 38900,
+      "cvr_7d": 0.087,
+      "cvr_14d": 0.059,
+      "cvr_delta_pct": 47.5,
+      "ctr_7d": 0.031,
+      "roas_7d": 3.4,
+      "trend": "up",
+      "notes": "Pico de performance — criativo formato 9:16 com casal jovem narrando aprovação."
+    },
+    {
+      "id": "meta_002",
+      "name": "Jeitto | Feed | Estática Aprovado em",
+      "objective": "conversions",
+      "spend_7d": 14200,
+      "spend_14d": 27800,
+      "cvr_7d": 0.041,
+      "cvr_14d": 0.044,
+      "cvr_delta_pct": -6.8,
+      "ctr_7d": 0.018,
+      "roas_7d": 2.1,
+      "trend": "flat"
+    },
+    {
+      "id": "meta_003",
+      "name": "Jeitto | Stories | Carrossel",
+      "objective": "traffic",
+      "spend_7d": 6800,
+      "spend_14d": 12100,
+      "cvr_7d": 0.022,
+      "cvr_14d": 0.029,
+      "cvr_delta_pct": -24.1,
+      "ctr_7d": 0.014,
+      "roas_7d": 1.2,
+      "trend": "down"
+    }
+  ],
+  "top_creatives": [
+    {
+      "id": "cr_044",
+      "format": "9:16",
+      "type": "video",
+      "headline": "Aprovado em 5 minutos sem consulta ao SPC",
+      "cvr_7d": 0.094,
+      "pattern": "outdoor + casal jovem + headline 'Aprovado em...'"
+    }
+  ]
+}

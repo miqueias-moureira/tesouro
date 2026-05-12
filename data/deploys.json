@@ -1,0 +1,33 @@
+{
+  "product": "Jeitto",
+  "deploys": [
+    {
+      "version": "v3.2",
+      "date": "2026-05-09",
+      "scope": ["landing-search", "form-step-1"],
+      "changes": [
+        "Mudança de copy: 'Empréstimo rápido' → 'Crédito em 5 minutos'",
+        "Reposicionamento do CTA principal",
+        "Remoção do selo 'sem consulta SPC' do header"
+      ],
+      "author": "produto-web"
+    },
+    {
+      "version": "v3.1",
+      "date": "2026-04-22",
+      "scope": ["form-step-2"],
+      "changes": ["Adição de validação de CPF em tempo real"],
+      "author": "produto-web"
+    },
+    {
+      "version": "v3.0",
+      "date": "2026-04-08",
+      "scope": ["landing-meta", "landing-search"],
+      "changes": [
+        "Nova hero com depoimentos em vídeo",
+        "Reels-friendly: landing 9:16 dedicada para mobile"
+      ],
+      "author": "produto-web"
+    }
+  ]
+}

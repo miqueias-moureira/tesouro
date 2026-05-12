@@ -1,0 +1,34 @@
+{
+  "product": "Jeitto",
+  "window": "últimos 14 dias",
+  "funnel_7d": {
+    "landing_views": 84210,
+    "form_starts": 19420,
+    "form_completes": 12880,
+    "approved": 6440
+  },
+  "stage_conversion_7d": {
+    "landing_to_form": 0.231,
+    "form_to_complete": 0.663,
+    "complete_to_approved": 0.500
+  },
+  "stage_conversion_14d": {
+    "landing_to_form": 0.214,
+    "form_to_complete": 0.704,
+    "complete_to_approved": 0.499
+  },
+  "anomalies": [
+    {
+      "stage": "form_to_complete",
+      "delta_pct": -5.8,
+      "since": "2026-05-09",
+      "hypothesis": "novo copy do  CTA (deploy v3.2) reduziu confiança na etapa de dados pessoais"
+    }
+  ],
+  "channels": {
+    "google_search": { "share_7d": 0.34, "share_14d": 0.41 },
+    "meta_reels": { "share_7d": 0.27, "share_14d": 0.19 },
+    "organic": { "share_7d": 0.22, "share_14d": 0.17 },
+    "other": { "share_7d": 0.17, "share_14d": 0.23 }
+  }
+}

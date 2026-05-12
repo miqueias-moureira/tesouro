@@ -1,0 +1,50 @@
+{
+  "slug": "jeitto",
+  "name": "Jeitto",
+  "vertical": "Fintech · Crédito Pessoal",
+  "sources": {
+    "meta": true,
+    "google": true,
+    "tiktok": false,
+    "microsoft": false,
+    "affiliates": false,
+    "organic": false,
+    "tracr": true,
+    "newrelic": false,
+    "engage": false,
+    "market": true,
+    "earned_media": true,
+    "competitor": false,
+    "deploys": true,
+    "design": false
+  },
+  "delivery": {
+    "slack_channel": "#tesouro-jeitto",
+    "notion_database": "Media Review · Jeitto",
+    "review_schedule": "sex 10h"
+  },
+  "next_review_at": "2026-05-15T10:00:00-03:00",
+  "alerts": [
+    {
+      "id": "a_001",
+      "kind": "creative",
+      "severity": "opportunity",
+      "title": "Reels \"casal jovem 9:16\" subindo +47% CVR",
+      "at": "2026-05-12T08:00:00-03:00"
+    },
+    {
+      "id": "a_002",
+      "kind": "deploy",
+      "severity": "risk",
+      "title": "Search caiu 18% CTR desde deploy v3.2 (09/05)",
+      "at": "2026-05-11T08:00:00-03:00"
+    },
+    {
+      "id": "a_003",
+      "kind": "earned_media",
+      "severity": "info",
+      "title": "Valor Econômico publicou matéria sobre Jeitto (11/05)",
+      "at": "2026-05-11T16:20:00-03:00"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "advertiser": "Jeitto",
+  "window": "últimos 14 dias",
+  "currency": "BRL",
+  "campaigns": [
+    {
+      "id": "ga_001",
+      "name": "Jeitto | Search | Empréstimo Aprovado",
+      "type": "search",
+      "spend_7d": 28400,
+      "spend_14d": 61200,
+      "ctr_7d": 0.041,
+      "ctr_14d": 0.050,
+      "ctr_delta_pct": -18.0,
+      "cvr_7d": 0.062,
+      "roas_7d": 2.4,
+      "trend": "down",
+      "notes": "Queda começou em 09/05 — coincide com deploy v3.2 que mudou copy da landing."
+    },
+    {
+      "id": "ga_002",
+      "name": "Jeitto | Performance Max | Brand",
+      "type": "pmax",
+      "spend_7d": 9800,
+      "spend_14d": 18400,
+      "ctr_7d": 0.072,
+      "cvr_7d": 0.089,
+      "roas_7d": 4.1,
+      "trend": "flat"
+    }
+  ]
+}

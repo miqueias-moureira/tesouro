@@ -1,0 +1,31 @@
+{
+  "category": "fintech / crédito pessoal",
+  "window": "últimos 14 dias",
+  "seasonality": {
+    "current_index": 1.18,
+    "baseline": 1.0,
+    "note": "Início de mês: pico de busca por crédito pessoal (+18% vs. baseline)."
+  },
+  "earned_media": [
+    {
+      "date": "2026-05-11",
+      "outlet": "Valor Econômico",
+      "title": "Jeitto cresce 40% em base ativa no primeiro trimestre",
+      "reach_estimate": 850000,
+      "sentiment": "positive"
+    },
+    {
+      "date": "2026-05-10",
+      "outlet": "Exame",
+      "title": "Fintechs disputam o brasileiro sem score",
+      "reach_estimate": 410000,
+      "sentiment": "neutral"
+    }
+  ],
+  "competitor_pressure": {
+    "share_of_voice_7d": 0.28,
+    "share_of_voice_14d": 0.31,
+    "leaders": ["Nubank", "Picpay", "RecargaPay"]
+  },
+  "insight": "Mídia espontânea forte em 11/05 — orgânico subiu e pago perdeu eficiência relativa em Search."
+}
